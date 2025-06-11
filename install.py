@@ -40,7 +40,7 @@ def main():
     i = php_mysql(v)
     i.run()
     php_v = run_command(["php", "--version"], capture_output=True)
-    Mysql_v = run_command(["wkhtmltopdf", "--version"], capture_output=True)
+    Mysql_v = run_command(["mysql", "--version"], capture_output=True)
     print(f"==>  PHP Version: {php_v}")
     print(f"==>  MySQL Version: {Mysql_v}")
 
