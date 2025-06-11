@@ -30,6 +30,6 @@ This Python script automates the installation and setup of **PHP** and **MySQL**
 git clone https://github.com/Echopxtechnologies/PHP_MySQL.git
 ```
 ```
-python3 php-mysql-installer/install.py
+python3 PHP_MySQL/install.py
 ```
 
